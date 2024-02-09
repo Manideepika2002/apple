@@ -1,0 +1,385 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue",Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --text-color : rgba(255, 255, 255, .8)
+    --bg-color : rgba(0, 0, 0, .8)
+    --text-heading : #0071E3
+    --text-heading11 : #1d1d1f
+}
+
+#nav{
+    /* border: 2px solid; */
+    height: 50px;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+#sub-nav{
+    /* border: 2px solid blueviolet; */
+    height: inherit;
+    width: 80%;
+    margin: auto;
+}
+
+#sub-nav ol{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    color: rgba(255, 255, 255, .8);
+    fill: rgba(255, 255, 255, .8);
+}
+
+#sub-sub{
+    color: rgba(255, 255, 255, .8);
+    height: inherit;
+    width: 80%;
+    margin: auto;
+}
+
+#main{
+    border: 2px solid;
+    height: 600px;
+    background-image: url(./images/hero_iphone15pro__i70z9oz3hj2i_large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+#main h1{
+    /* border: 2px solid; */
+    margin-left: 400px;
+    margin-top: 50px;
+    color: rgba(255, 255, 255, .8) ;
+    position: absolute;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 1.07143;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue",Arial, Helvetica, sans-serif;
+}
+
+#main h1+h3{
+    /* border: 2px solid; */
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.10722;
+    letter-spacing: 0.004em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue",Arial, Helvetica, sans-serif;
+    margin-top: 120px;
+    margin-left: 360px;
+    color: rgba(255, 255, 255, .8) ;
+}
+
+#main h1+h3+br+a{
+    color: blue;
+    /* border: 2px solid; */
+    padding: 10px;
+    margin-left: 480px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#main h1+h3+br+a:hover{
+    text-decoration: underline;
+}
+
+#main h1+h3+br+a+a{
+    color: blue;
+    /* border: 2px solid; */
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#main h1+h3+br+a+a:hover{
+    text-decoration: underline;
+}
+
+#sub-main{
+    border: 2px solid;
+    height: 600px;
+    background-image: url(./images/hero_iphone15_announce__uuemlcwczn6u_large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#sub-main h1{
+    /* border: 2px solid; */
+    margin-left: 500px;
+    margin-top: 50px;
+    /* color: rgba(255, 255, 255, .8) ; */
+    position: absolute;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 1.07143;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue",Arial, Helvetica, sans-serif;
+}
+
+#sub-main h1+h3{
+    /* border: 2px solid; */
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.10722;
+    letter-spacing: 0.004em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue",Arial, Helvetica, sans-serif;
+    margin-top: 120px;
+    margin-left: 390px;
+    /* color: rgba(255, 255, 255, .8) ; */
+}
+
+#sub-main h1+h3+br+a{
+    color: blue;
+    /* border: 2px solid; */
+    padding: 10px;
+    margin-left: 500px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#sub-main h1+h3+br+a:hover{
+    text-decoration: underline;
+}
+
+#sub-main h1+h3+br+a+a{
+    color: blue;
+    /* border: 2px solid; */
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#main h1+h3+br+a+a:hover{
+    text-decoration: underline;
+}
+
+#watch{
+    border: 2px solid;
+    height: 600px;
+    background-image: url(./images/hero_apple_watch_series_9__x5wo4ptz2giu_large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color:rgba(255, 255, 255, .8);
+}
+
+#watch h2{
+    padding-top: 400px;
+    padding-left: 500px;
+    font-size: 40px;
+}
+
+#watch h2+h3{
+    color:rgba(255, 255, 255, .8);
+    /* border: 2px solid; */
+    margin-left: 600px;
+}
+#watch h2+h3+h4{
+    color:rgba(255, 255, 255, .8);
+    /* border: 2px solid; */
+    margin-left: 480px;
+}
+
+#watch h2+h3+h4+br+a{
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: white;
+    text-decoration: none;
+    margin-left: 550px;
+}
+#watch h2+h3+h4+br+a:hover{
+    text-decoration: underline;
+}
+
+#watch h2+h3+h4+br+a+a:hover{
+    text-decoration: underline;
+}
+#watch h2+h3+h4+br+a+a{
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: white;
+    text-decoration: none;
+}
+
+#sub-sub-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+#sub-sub-main div {
+    /* border: 2px solid; */
+    background-image: url(./images/promo_apple_watch_ultra2_order__dyxqj5ia98om_large.jpg);
+    width: 1262px;
+    height: 580px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#sub-sub-main div h1{
+    /* border: 2px solid; */
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+#sub-sub-main div h4{
+    margin-left: 180px;
+}
+
+#sub-sub-main div a{
+    text-decoration: none;
+    color: skyblue;
+    margin-left: 180px;
+}
+
+#sub-sub-main div a+a{
+    margin-left: 0px;
+}
+
+#sub-sub-main div+div a{
+    margin-left: 200px;
+}
+
+#sub-sub-main div+div a+a{
+    margin-left: 0px;
+}
+
+#sub-sub-main div+div{
+    /* border: 2px solid; */
+    background-image: url(./images/promo_mbp__ek7p477bkp6q_large.jpg);
+    width: 1262px;
+    height: 580px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#sub-sub-main1 div{
+    /* border: 2px solid; */
+    background-image: url(./images/promo_ipad__fioegapg12qi_large.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 1262px;
+    height: 580px;
+}
+
+#sub-sub-main1 div+div{
+    /* border: 2px solid; */
+    background-image: url(./images/promo_airpods_pro_order__d8xv36p4uwae_large.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 1262px;
+    height: 580px;
+}
+
+#sub-sub-main1 div h1{
+    /* border: 2px solid; */
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+#sub-sub-main1 div+div h1{
+    /* border: 2px solid; */
+    margin-top: 100px;
+    margin-left: 200px;
+    color: rgba(255, 255, 255, .8);
+}
+
+#sub-sub-main1{
+    display: flex;
+    justify-content: space-between;
+}
+#sub-sub-main1 div h4{
+    margin-left: 180px;
+}
+
+#sub-sub-main1 div+div h4{
+    margin-left: 180px;
+    color: rgba(255, 255, 255, .8);
+}
+
+#sub-sub-main1 div a{
+    text-decoration: none;
+    color: skyblue;
+    margin-left: 180px;
+}
+
+#sub-sub-main1 div a+a{
+    margin-left: 0px;
+}
+
+#sub-sub-main1 div+div a{
+    margin-left: 200px;
+}
+
+#sub-sub-main1 div+div a+a{
+    margin-left: 0px;
+}
+
+#sub-sub-main2{
+    display: flex;
+    justify-content: space-between;
+}
+
+#sub-sub-main2 div{
+    background-image: url(./images/tile_homepod_mini__b73w4z3ljymu_large.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 1262px;
+    height: 580px;
+}
+
+#sub-sub-main2 div+div{
+    background-image: url(./images/promo_iphone_tradein__bugw15ka691e_large.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 1262px;
+    height: 580px;
+}
+
+#sub-sub-main2 div h1{
+    /* border: 2px solid; */
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+#sub-sub-main2 div+div h1{
+    /* border: 2px solid; */
+    margin-top: 100px;
+    margin-left: 280px;
+}
+
+#sub-sub-main2 div h4{
+    margin-left: 180px;
+}
+
+#sub-sub-main2 div a{
+    text-decoration: none;
+    color: skyblue;
+    margin-left: 200px;
+}
+
+#sub-sub-main2 div a+a{
+    margin-left: 0px;
+}
+
+#sub-sub-main2 div+div a{
+    margin-left: 200px;
+}
+
+#sub-sub-main2 div+div a+a{
+    margin-left: 0px;
+}
